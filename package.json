@@ -4,8 +4,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon --env-file=.env src/index.js",
-    "dev": "nodemon --env-file=.env src/index.js"
+    "start": "nodemon backend/src/index.js",
+    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
+    "dev": "nodemon --env-file=.env backend/src/index.js"
   },
   "keywords": [],
   "author": "",
