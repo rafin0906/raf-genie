@@ -7,7 +7,7 @@ export default function App() {
     <div
       className="min-h-screen bg-[#0a0d12] text-white flex flex-col items-center justify-start"
       style={{
-        backgroundImage: `url('/src/assets/bg.png')`,
+        backgroundImage: `url('/bg.png')`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
